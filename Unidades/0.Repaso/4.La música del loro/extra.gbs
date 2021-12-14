@@ -2,6 +2,8 @@
 /*---------------- INTERFAZ --------------------------------------------------------------*/
 /*----------------------------------------------------------------------------------------*/
 procedure MoverAlLoroAl_(dir) { AuxMoverAlLoroAl(dir)        }
+
+/*@ATTRIBUTE@block_name@¿hay instrumento?@*/
 function  hayInstrumento()    { return(aux_hayInstrumento()) }
 
 /*@ATTRIBUTE@block_dropdown@[("el tambor",'Tambor'), ("la guitarra",'Guitarra')]@*/
